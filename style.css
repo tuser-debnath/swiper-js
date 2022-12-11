@@ -1,0 +1,142 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@600;700&family=Roboto+Slab:wght@400;600&display=swap");
+/* Main CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #f8f8f8;
+  line-height: 1.6;
+}
+.slider-area {
+  padding: 50px 0;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.slider-area .swiper-slide img {
+  width: 100%;
+}
+.slider-area .single-slide {
+  position: relative;
+}
+.slider-area .single-slide img {
+  height: 400px;
+}
+.slider-area .single-slide a {
+  display: inline-block;
+  padding: 10px;
+}
+.slider-area .single-slide h2 {
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slider-area .swiper-wrapper {
+  padding-bottom: 55px;
+}
+.slider-area .swiper-button-next,
+.slider-area .swiper-button-prev {
+  top: 95%;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #333;
+  z-index: 99;
+}
+.slider-area .swiper-button-prev {
+  left: 0;
+}
+.slider-area .swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  bottom: 25px;
+}
+.slider-area .swiper-button-next::after,
+.slider-area .swiper-button-prev::after {
+  font-size: 15px;
+  color: #333;
+}
+.slider-area .swiper-button-disabled {
+  display: none;
+}
+@media (max-width: 991px) {
+  .slider-area {
+    width: 100%;
+  }
+}
+
+/* 
+Testimonial CSS Start
+*/
+.testimonial-area {
+  padding: 50px 0;
+}
+.testimonial-area .swiper-wrapper {
+  padding-bottom: 70px;
+}
+.testimonial-area .swiper-button-next,
+.testimonial-area .swiper-button-prev {
+  top: 90%;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #333;
+  z-index: 99;
+}
+.testimonial-area .swiper-button-prev {
+  left: 0;
+}
+.testimonial-area .swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  bottom: 25px;
+}
+.testimonial-area .swiper-button-next::after,
+.testimonial-area .swiper-button-prev::after {
+  font-size: 15px;
+  color: #333;
+}
+.testimonial-area .swiper-button-disabled {
+  display: none;
+}
+.single-testimonial {
+  padding-left: 60px;
+  position: relative;
+}
+.single-testimonial::before {
+  position: absolute;
+  content: "\f10d";
+  top: -15px;
+  left: 0;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 35px;
+}
+.single-testimonial h2 {
+  font-size: 28px;
+}
+.single-testimonial h4 {
+  font-size: 16px;
+  color: #999;
+  font-weight: 400;
+  margin: 0;
+  margin: 20px 0 30px 0;
+}
+.single-testimonial p {
+  margin: 0;
+}
+@media (max-width: 575px) {
+  .testimonial-area .swiper-button-next,
+  .testimonial-area .swiper-button-prev {
+    top: 91%;
+  }
+}
